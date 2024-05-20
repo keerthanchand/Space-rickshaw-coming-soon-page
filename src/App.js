@@ -4,15 +4,7 @@ import logo from './sr_logo.png'; // Make sure to add the moon image in the src 
 import { Grid } from '@mui/material';
 import { TypeAnimation } from 'react-type-animation';
 import ReactGa from 'react-ga';
-// <!-- Google tag (gtag.js) -->
-// <script async src="https://www.googletagmanager.com/gtag/js?id=G-DKKCGH86KD"></script>
-// <script>
-//   window.dataLayer = window.dataLayer || [];
-//   function gtag(){dataLayer.push(arguments);}
-//   gtag('js', new Date());
 
-//   gtag('config', 'G-DKKCGH86KD');
-// </script>
 ReactGa.initialize("G-DKKCGH86KD")
 
 function App() {
